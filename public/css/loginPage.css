@@ -1,0 +1,42 @@
+.min-h-screen{
+    background: linear-gradient(180deg, #FCEADB 43.07%, #FCD6B7 100%);
+}
+
+.bodyLogin{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardTitle{
+    font-size: 40px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.logoBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #FCF7F3;
+    width: 40%;
+}
+
+.loginBox{
+    width: 60%;
+}
+
+.loginBox{
+    background: linear-gradient(180deg, #FCEADB 43.07%, #FCD6B7 100%);
+}
+
+.ml-3{
+    background-color: #FCD6B7;
+    color: #000000;
+}
+
+.ml-3:hover{
+    background-color: #ffb578;
+}
