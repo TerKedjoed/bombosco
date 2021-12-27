@@ -13,27 +13,27 @@ Bombosco merupakan usaha di bidang Food and Beverange (FnB) yang difokuskan pada
 
 ## Installation Tutorial
 
-### 1. Clone the repository
+#### 1. Clone the repository
 
 ```sh
 git clone https://github.com/deanarchy/bombosco.git
 ```
 
-### 2.  Copy .env.example to .env
+#### 2. Copy .env.example to .env
 
-### 3. Generate the secret key
+#### 3. Generate the secret key
 
 ```sh
 php artisan key:generate
 ```
 
-### 4. Install the dependencies
+#### 4. Install the dependencies
 
 ```sh
 composer install && npm install && npm run dev
 ```
 
-### 5. Migrate to database
+#### 5. Migrate to database
 
 ```sh
 php artisan migrate:fresh
