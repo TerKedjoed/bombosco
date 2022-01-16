@@ -15,6 +15,10 @@ class ProductFactory extends Factory
     {
         return [
             //
+            'name' => $this->faker->word(),
+            'description' => $this->faker->paragraph(),
+            'price' => $this->faker->numberBetween(1000, 100000),
+            'image_path' => 'lorem',
         ];
     }
 }
